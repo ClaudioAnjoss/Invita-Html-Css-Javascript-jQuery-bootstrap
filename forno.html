@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap5/bootstrap.min.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <!--Font Awesome-->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap5/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/daf59bf55a.js" crossorigin="anonymous"></script>
+
+    <title>Invita - Forno</title>
+</head>
+
+<body>
+
+    <!--Barra do Menu-->
+    <header>
+        <div id="barra-menu">
+            <nav class="navbar navbar-expand-md bg navbar-dark">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="menu" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="sobre.html" class="nav-link">Sobre</a>
+                            </li>
+                            <li id="produtos-menu" class="nav-item dropdown">
+                                <a href="#" class="active nav-link dropdown-toggle bg-menu-responsive" role="button"
+                                    data-bs-toggle="dropdown">Produtos</a>
+                                <ul id="drop-menu" class="dropdown-menu">
+                                    <li><a href="produtos.html" class="dropdown-item">Coifas</a></li>
+                                    <li><a href="" class="dropdown-item">Cooktop Gás Black</a></li>
+                                    <li><a href="" class="dropdown-item">Cooktop Gás Inox</a></li>
+                                    <li><a href="forno.html" class="dropdown-item">Forno Multifunção</a></li>
+                                    <li><a href="" class="dropdown-item">Microondas</a></li>
+                                    <li><a href="" class="dropdown-item">Refrigeradores</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="onde-encontrar.html" class="nav-link">Onde Encontrar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="suporte.html" class="nav-link">Suporte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link"><span>
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Estrutura do site-->
+    <div id="estrutura">
+
+        <!--Bg-forno-->
+        <div id="bg-forno">
+            <h1>Forno Multifunção <br> Eletrônico</h1>
+        </div>
+
+        <!--Conteudo-Forno-->
+        <div id="cont-forno" class="">
+            <div class="container">
+                <nav>
+                    <ol class="breadcrumb local">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Produtos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Forno Multifunção Eletrônico</li>
+                    </ol>
+                </nav>
+
+                <!--Carousel-->
+                <div class="container">
+                    <div data-bs-ride="carousel" id="lista-itens" class="p-3 carousel slide">
+
+                        <div class="row">
+
+                            <!--Indicador-->
+                            <div class="col-lg-2 col-md-2 col-sm-1 teste">
+                                <div class="carousel-indicators">
+                                    <ul>
+
+                                        <li><a id="cima" href="#" data-bs-target="#lista-itens"
+                                                data-bs-slide="prev"><img src="imagens/cima.png" alt=""></a>
+                                        </li>
+
+                                        <li><a href="#" data-bs-target="#lista-itens" data-bs-slide-to="0"
+                                                class="active" aria-current="true" aria-label="Slide 1"><img
+                                                    src="imagens/Placeholder.png" alt=""></a>
+                                        </li>
+
+                                        <li><a href="#" data-bs-target="#lista-itens" data-bs-slide-to="1"
+                                                aria-label="Slide 2"><img class="img-fluid"
+                                                    src="imagens/Placeholder.png" alt=""></a>
+                                        </li>
+
+                                        <li><a href="#" data-bs-target="#lista-itens" data-bs-slide-to="2"
+                                                aria-label="Slide 3"><img class="img-fluid"
+                                                    src="imagens/Placeholder.png" alt=""></a>
+                                        </li>
+
+                                        <li><a id="baixo" href="#" data-bs-target="#lista-itens"
+                                                data-bs-slide="next"><img src="imagens/baixo.png" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--Itens do Carousel-->
+                            <div class="col-lg-6 col-md-3 col-sm-3 teste_">
+                                <div class="carousel-inner">
+
+                                    <!--Item 01-->
+                                    <div class="carousel-item active">
+                                        <div class="col">
+                                            <img src="imagens/forno.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <!--Item 02-->
+                                    <div class="carousel-item">
+                                        <div class="col">
+                                            <img src="imagens/forno2.png" alt="">
+                                        </div>
+                                    </div>
+
+                                    <!--Item 03-->
+                                    <div class="carousel-item">
+                                        <div class="col">
+                                            <img src="imagens/forno.png" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-12 col-sm-12">
+                                <h2>FORNO MULTIFUNÇÃO ELETRÔNICO</h2>
+                                <span class="codigo-prod">CÓDIGO DO PRODUTO</span>
+                                <div class="info">
+                                    <p>Microondas com tecnologia flat, proporciona maior
+                                        aproveitamento do
+                                        espaço interno,
+                                        possui 8 programas de cocção e 2 combinados, bloqueio para
+                                        crianças,
+                                        timer digital e
+                                        acabamento da moldura em aço inox.</p>
+                                </div>
+                                <h3>BENEFÍCIOS</h3>
+                                <div class="info">
+                                    <img src="imagens/badge 2.png" alt="">
+                                    <p>Alta tecnologia com design clássico e sofisticação: comando
+                                        touch,
+                                        iluminação em Strip
+                                        LED, Função Timer e Alerta para a troca dos filtros.</p>
+                                </div>
+                                <div class="info">
+                                    <img src="imagens/crown 1.png" alt="">
+                                    <p>Aspiração perimetral: maior higiene, melhor sucção pelo
+                                        efeito Venturi.
+                                        Segurança para
+                                        flambar alimentos.</p>
+                                </div>
+                                <div class="info">
+                                    <img src="imagens/diamond 1.png" alt="">
+                                    <p>Versátil: funciona como Depuração, devolvendo ao ambiente o
+                                        ar,
+                                        purificado e higienizado
+                                        por carvão ativado, ou também na função Exaustão, que retira
+                                        o ar sujo e
+                                        contaminado do
+                                        ambiente.</p>
+                                </div>
+                                <div class="info">
+                                    <img src="imagens/dollar 1.png" alt="">
+                                    <p>90 cm largura, Vazão de 1.200 m³/h, com 4 opções de
+                                        velocidades,
+                                        instalação parede.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="garrafa-prod">
+                <!--informações / Collapse -->
+                <script>
+                    $(document).ready(function () {
+                        $('.action_click').on('click', function () {
+                            var id = $(this).data("id");
+                            console.log(id);
+                            $("#" + id).toggle(500);
+                        });
+                    });
+                </script>
+                <div class="container">
+                    <div id="informacoes-dropdown" class="col-8">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header info-produtos" id="headingOne">
+
+                                    <div class="action_click tit-prod" data-id="collapseOne" type="button">
+                                        Detalhes do produto
+                                    </div>
+
+                                </div>
+
+                                <div id="collapseOne" class="collapse">
+                                    <div class="card-body">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Corporis
+                                        perferendis magni maiores temporibus nesciunt mollitia voluptas. Quisquam,
+                                        quis quae
+                                        aperiam eius optio atque at, consequuntur corporis, alias dignissimos
+                                        debitis quasi.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header info-produtos" id="headingTwo">
+
+                                    <div class="action_click tit-prod" type="button" data-id="collapseTwo">
+                                        Informações técnicas
+                                    </div>
+
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header info-produtos" id="headingThree">
+
+                                    <div class="action_click tit-prod" data-id="collapseThree">
+                                        Downloads
+                                    </div>
+
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header info-produtos" id="headingThree">
+
+                                    <div class="action_click tit-prod" data-id="collapseFour">
+                                        Garantia
+                                    </div>
+
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt
+                                        aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                        et.
+                                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+                                        sapiente
+                                        ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                                        them
+                                        accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Formulario-->
+                <div id="formulario" class="form-prod">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-aba-produtos">
+                                <h1>Receba as novidades</h1>
+                                <p>Cadastre seu e-mail para receber todas as novidades Invita.</p>
+                                <input class="form-control mb-3" type="text" placeholder="Nome Completo">
+                                <input class="form-control mb-3" type="email" placeholder="E-mail">
+                                <div class="text-end"><button class="btn">Cadastrar</button></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Rodape-->
+    <footer id="rodape">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-2">
+                    <ul>
+                        <li class="sobre-rodape">Sobre</li>
+                        <li><a href="">Produto</a></li>
+                        <li><a href="">Garantia</a></li>
+                        <li><a href="">Assisténcia Técnica</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="p-rodape">
+                        <li><strong>Contato</strong></li>
+                        <li>Telefone: <span class="contato">0800 723 1202</span></li>
+                        <li>E-mail: <span class="contato">sac@elettromec.com.br</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 logo-rodape">
+                    <img class="p-rodape img-fluid" src="imagens/logo-rodape.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-start pt-4">
+                    Termos & Condições
+                </div>
+                <div class="col-md-4 pt-4">
+                    2022 Elettromec. Todos os direitos reservados.
+                </div>
+                <div class="col-md-3 alinhamento-icons">
+                    <i class="fa-brands fa-instagram rounded-circle"></i>
+                    <i class="fa-brands fa-facebook rounded-circle"></i>
+                    <i class="fa-brands fa-youtube rounded-circle"></i>
+                    <i class="fa-brands fa-pinterest rounded-circle"></i>
+                    <i class="fa-brands fa-linkedin rounded-circle rounded-circle"></i>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>
